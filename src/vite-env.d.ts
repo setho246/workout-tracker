@@ -3,11 +3,11 @@
 export type Routine = {
     routineId: number;
     name: string;
-    exercises: Regime[];
+    exercises: Workout[];
 }
 
-export type Regime = {
-    regimeId: number;
+export type Workout = {
+    workoutId: number;
     name: string;
     exercise: Exercise;
     sets: number;
